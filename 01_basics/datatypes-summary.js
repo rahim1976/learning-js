@@ -40,3 +40,52 @@ const myFunction  = function(){
 }
 
 console.log(typeof BigNumber);
+
+
+
+// ==================================================
+
+// Stack (Primitive) , Heap  (Non-Primitive)
+// Stack (updated and original values will be different)
+let myYoutubename = "XTM"
+let anothername = myYoutubename
+
+anothername = "extremer"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+
+// Heap (updated and original values will be same)
+let userOne = {
+    email: "user@google.com",
+    password: "123"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rahim@google.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
